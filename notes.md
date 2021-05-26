@@ -91,24 +91,26 @@
   - does same thing as "node index"
 - middleware: code that runs between request and response.
 
-7. Video 7 Notes:
+7. Video 6.5 Notes:
 
-8. Video 8 Notes;
+-
 
-9. Video 9 Notes:
+8. Video 7 Notes:
 
-10. Video 10 Notes:
+9. Video 8 Notes;
 
-11. Video 11 Notes:
+10. Video 9 Notes:
 
-12. Video 12 Notes:
+11. Video 10 Notes:
 
-13. Video 13 Notes:
+12. Video 11 Notes:
 
-14. Video 14 Notes:
+13. Video 12 Notes:
 
-15. Video 15 Notes:
+14. Video 13 Notes:
 
-16. Video 16 Notes:
+15. Video 14 Notes:
 
-17. Video 17:
+16. Video 15 Notes:
+
+17. Video 16 Notes:
