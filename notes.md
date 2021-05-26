@@ -85,6 +85,12 @@
 
 6. Video 6 Notes:
 
+- Nodemon: helps us with monitoring the application for changes.
+- npm install -g nodemon
+- nodemon index
+  - does same thing as "node index"
+- middleware: code that runs between request and response.
+
 7. Video 7 Notes:
 
 8. Video 8 Notes;
