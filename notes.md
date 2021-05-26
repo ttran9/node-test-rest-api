@@ -93,9 +93,13 @@
 
 7. Video 6.5 Notes:
 
--
-
 8. Video 7 Notes:
+
+- Body-Parser: Dependency which can help us grab content from the request body.
+- Middleware: Code that is "fired" (executed) from the user request and the server's response.
+  - We can use multiple middleware and middleware before the route handlers and after the route handlers.
+- npm install body-parser --save
+- f
 
 9. Video 8 Notes;
 
