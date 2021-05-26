@@ -111,6 +111,30 @@
 
 10. Video 9 Notes:
 
+- I chose not to have mongo auto start on system boot so I had issues with getting it to start.
+  - I tried the solution in [here](https://stackoverflow.com/questions/64608581/mongodb-code-exited-status-14-failed-but-not-any-clear-errors) to resolve my issue. The answer by "Arman" on Feb 8th, 2021 at 18:39. The answer starts with, "try this :-worked for me".
+  - Mongoose's promise is deprecated so we use the global promise.
+- "\_id": "60aea41e281a196e2b5beef0": is the unique identifier.
+- Mongo shell help below:
+  - mongo:
+    - connect to mongo shell at localhost on default port 27017
+  - show dbs/databases
+    - shows the databases
+  - db
+    - shows the current database you're using
+  - use ninjas
+    - connects to the specified database (ninjas).
+  - show collections
+    - shows the collections in the db.
+  - db.ninjas.find()
+    - lists the documents in the ninjas collection.
+  - db.ninjas.findOne()
+    - lists the first document in the ninjas collection.
+  - db.getCollection('ninjas')
+    - grabs the ninjas collection in the current database.
+  - db.getCollection('ninjas').find({name: 'Yoshi'})
+    - find by the field name with "Yoshi" (case sensitive)
+
 11. Video 10 Notes:
 
 12. Video 11 Notes:
