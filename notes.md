@@ -103,6 +103,12 @@
 
 9. Video 8 Notes;
 
+- Schema defined in the structure.
+- Model represents the collection.
+- Mongoose: Adds a layer of methods to easily save, edit, retrieve, and delete data from mongodb.
+  - Allows us to create our Models and Schemas easily.
+- npm install mongoose --save
+
 10. Video 9 Notes:
 
 11. Video 10 Notes:
