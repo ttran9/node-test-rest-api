@@ -137,6 +137,8 @@
 
 11. Video 10 Notes:
 
+- "next" lets the function know to move to the next "piece of middleware"
+
 12. Video 11 Notes:
 
 13. Video 12 Notes:
