@@ -13,6 +13,7 @@ mongoose.connect("mongodb://localhost/ninjago", {
   useUnifiedTopology: true,
 });
 mongoose.Promise = global.Promise; // override mongoose's promise.
+mongoose.set("useCreateIndex", true);
 
 // set up bodyParser middleware.
 app.use(bodyParser.json());
