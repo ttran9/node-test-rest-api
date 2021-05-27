@@ -145,6 +145,12 @@
 
 14. Video 13 Notes:
 
+- [GeoJson Site](https://geojson.org/)
+- 2d vs 2d Sphere
+  - 2d: Simply takes into account distance as a flat line.
+  - 2dsphere: Maps content out like the earth but still sits on a 2d plane.
+    - Takes into account the 3d portion of the earth but still uses a 2d plane.
+
 15. Video 14 Notes:
 
 16. Video 15 Notes:
