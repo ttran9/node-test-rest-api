@@ -152,7 +152,3 @@
     - Takes into account the 3d portion of the earth but still uses a 2d plane.
 
 15. Video 14 Notes:
-
-16. Video 15 Notes:
-
-17. Video 16 Notes:
