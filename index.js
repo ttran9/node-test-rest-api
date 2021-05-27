@@ -19,6 +19,14 @@ app.use(bodyParser.json());
 // initialize routes
 app.use("/api", require("./routes/api"));
 
+// error handling middleware
+app.use(function (err, req, res, next) {
+  // const { message } = err;
+  // console.log(err);
+  // res.send({ error: message });
+  res.status(422).send({ error: err.message });
+});
+
 // listen for requests on port 4000
 app.listen(process.env.port || 4000, function () {
   console.log("now listening for requests");
