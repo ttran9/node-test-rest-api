@@ -3,9 +3,14 @@ const bodyParser = require("body-parser");
 // const routes = require("./routes/api");
 const mongoose = require("mongoose");
 const errorHandlers = require("./middleware/errorHandler");
+const cors = require("cors");
 
 // set up express app.
 const app = express();
+
+var corsOptions = {
+  origin: "http://localhost:3000",
+};
 
 // connect to mongodb.
 mongoose.connect("mongodb://localhost/ninjago", {
@@ -19,7 +24,8 @@ mongoose.set("useCreateIndex", true);
 app.use(bodyParser.json());
 
 // initialize routes
-app.use("/api", require("./routes/api"));
+// app.use("/api", require("./routes/api"));
+app.use("/api", cors(corsOptions), require("./routes/api"));
 
 // error handling middleware
 // app.use(function (err, req, res, next) {
